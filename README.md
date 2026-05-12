@@ -143,4 +143,3 @@ bash AutoTraj/trajectory_generate/start_generate.sh
 
 ## Notes
 Ensure all dataset paths are correctly configured before training.
-```
