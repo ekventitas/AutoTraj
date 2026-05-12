@@ -1,4 +1,3 @@
-```markdown
 # AutoTraj: Quick Start
 
 This document provides a complete step-by-step guide for running Supervised Fine-Tuning (SFT), Reinforcement Learning (RL), and TIR Evaluation in AutoTraj.
