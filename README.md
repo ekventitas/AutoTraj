@@ -142,5 +142,5 @@ Run trajectory evaluation:
 bash AutoTraj/trajectory_generate/start_calculate.sh
 ```
 
-## Notes
+## 📝 Notes
 Ensure all dataset paths are correctly configured before training.
