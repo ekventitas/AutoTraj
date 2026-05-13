@@ -22,11 +22,9 @@ pip install -e ".[metrics]"
 ### 1.2 Supervised Fine-Tuning (SFT)
 
 **Step 1: Prepare Dataset**  
-Place the dataset at:  
-`LLaMA-Factory/data/sft_high_quality_trajectory_masked.json`  
+Place the dataset at:  `LLaMA-Factory/data/sft_high_quality_trajectory_masked.json`  
 
-Register the dataset in:  
-`LLaMA-Factory/data/dataset_info.json`
+Register the dataset in:  `LLaMA-Factory/data/dataset_info.json`
 
 **Step 2: Configure Training**  
 Complete the dataset path and training configuration in:  
@@ -41,15 +39,12 @@ bash examples/train_full/train_sft.sh
 ### 1.3 Reward Model Training
 
 **Step 1: Prepare Dataset**  
-Place the reward model dataset at:  
-`LLaMA-Factory/data/rm_compare_pairs_masked.json`  
+Place the reward model dataset at:  `LLaMA-Factory/data/rm_compare_pairs_masked.json`  
 
-Register the dataset in:  
-`LLaMA-Factory/data/dataset_info.json`
+Register the dataset in:  `LLaMA-Factory/data/dataset_info.json`
 
 **Step 2: Configure Reward Model**  
-Edit the configuration file:  
-`LLaMA-Factory/examples/train_lora/qwen_lora_reward.yaml`
+Edit the configuration file:  `LLaMA-Factory/examples/train_lora/qwen_lora_reward.yaml`
 
 **Step 3: Train Reward Model**  
 ```bash
@@ -116,8 +111,7 @@ Download:
 - Corresponding retriever models
 
 **Step 2: Configure Retriever Service**  
-Edit the configuration file:  
-`evaluation/search/serving_config.yaml`  
+Edit the configuration file:  `evaluation/search/serving_config.yaml`  
 
 Fill in:
 - Retriever model path
@@ -139,6 +133,13 @@ Run trajectory generation:
 
 ```bash
 bash AutoTraj/trajectory_generate/start_generate.sh
+```
+
+### 3.4 Evaluation
+Run trajectory evaluation:
+
+```bash
+bash AutoTraj/trajectory_generate/start_calculate.sh
 ```
 
 ## Notes
