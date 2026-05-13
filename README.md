@@ -71,13 +71,13 @@ The RL training framework is built on VERL and Tool-Star.
 
 **Step 1: Configure Training Script**  
 Edit the following script and complete all required path and parameter settings:  
-`scripts/train/run_tool_star.sh`
+`Tool-Star/Tool_Star_RL/scripts/train/run_tool_star.sh`
 
 **Step 2: Start Reward Model Server**  
 Before starting RL training, launch the reward model service:
 
 ```bash
-bash utils/reward_score/rm_server.sh
+bash Tool-Star/Tool_Star_RL/src/verl/verl/utils/reward_score/rm_server.sh
 ```
 
 **Step 3: Start RL Training**  
@@ -93,7 +93,7 @@ bash run_tool_star.sh
 Merge RL weights and export the model in Hugging Face format:
 
 ```bash
-python Tool_Star_RL/model_merger.py \
+python Tool-Star/Tool_Star_RL/model_merger.py \
     --local_dir /{your_checkpoint_path}/global_step_{your_RL_step}/actor/
 ```
 
@@ -127,7 +127,7 @@ Fill in:
 
 **Step 3: Start Retriever Service**  
 ```bash
-cd evaluation/search
+cd Tool-Star/evaluation/search
 python host_wiki.py \
     --config serving_config.yaml \
     --num_retriever {num_retriever} \
