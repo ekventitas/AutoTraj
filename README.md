@@ -2,7 +2,7 @@
 
 This document provides a complete step-by-step guide for running Supervised Fine-Tuning (SFT), Reinforcement Learning (RL), and TIR Evaluation in AutoTraj.
 
-## 1. SFT Stage
+## 🏷️ SFT Stage
 
 ### 1.1 Environment Setup
 Install dependencies required for the SFT stage:
@@ -52,7 +52,7 @@ cd LLaMA-Factory
 bash examples/train_lora/train_rm.sh
 ```
 
-## 2. RL Stage
+## 🚀 RL Stage
 
 ### 2.1 Environment Setup
 Install dependencies required for RL training:
@@ -92,7 +92,7 @@ python Tool-Star/Tool_Star_RL/model_merger.py \
     --local_dir /{your_checkpoint_path}/global_step_{your_RL_step}/actor/
 ```
 
-## 3. TIR Evaluation
+## 🛠️ TIR Evaluation
 
 ### 3.1 Environment Setup
 Install inference dependencies:
