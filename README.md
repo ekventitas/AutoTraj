@@ -1,6 +1,6 @@
 # Guided by Trajectories: Repairing and Rewarding Tool-Use Trajectories for Tool-Integrated Reasoning
 
-## Resources
+## 📦 Resources
 
 All resources associated with this work are publicly available on Hugging Face:
 
