@@ -1,5 +1,7 @@
 # Guided by Trajectories: Repairing and Rewarding Tool-Use Trajectories for Tool-Integrated Reasoning
 
+All resources associated with this work are publicly available on Hugging Face:
+
 🤗 **Dataset**
 
 [![Hugging Face Model](https://img.shields.io/badge/🤗-Hugging%20Face-FFD21E)](https://huggingface.co/datasets/yvonne-xiao/AutoTraj-dataset)
