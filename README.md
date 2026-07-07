@@ -1,6 +1,9 @@
-# AutoTraj: Quick Start
+# Guided by Trajectories: Repairing and Rewarding Tool-Use Trajectories for Tool-Integrated Reasoning
 
-This document provides a complete step-by-step guide for running Supervised Fine-Tuning (SFT), Reinforcement Learning (RL), and TIR Evaluation in AutoTraj.
+🤗 Our dataset is available at the following link:
+
+[![Hugging Face Model](https://img.shields.io/badge/🤗-Hugging%20Face-FFD21E)]([https://huggingface.co/yvonne-xiao/LightTIR/](https://huggingface.co/datasets/yvonne-xiao/AutoTraj-dataset))
+
 
 ## 🏷️ SFT Stage
 
