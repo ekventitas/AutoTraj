@@ -1,18 +1,12 @@
 # Guided by Trajectories: Repairing and Rewarding Tool-Use Trajectories for Tool-Integrated Reasoning
 
-All resources associated with this work are publicly available on Hugging Face:
+All resources associated with this work are publicly available on 🤗 Hugging Face:
 
-🤗 **Dataset**
+**Dataset** [![Hugging Face Model](https://img.shields.io/badge/🤗-Hugging%20Face-FFD21E)](https://huggingface.co/datasets/yvonne-xiao/AutoTraj-dataset)
 
-[![Hugging Face Model](https://img.shields.io/badge/🤗-Hugging%20Face-FFD21E)](https://huggingface.co/datasets/yvonne-xiao/AutoTraj-dataset)
+**Reward Model** [![Hugging Face Model](https://img.shields.io/badge/🤗-Hugging%20Face-FFD21E)](https://huggingface.co/yvonne-xiao/AutoTraj-7B)
 
-🤗 **Reward Model**
-
-[![Hugging Face Model](https://img.shields.io/badge/🤗-Hugging%20Face-FFD21E)](https://huggingface.co/yvonne-xiao/AutoTraj-7B)
-
-🤗 **Inference Model**
-
-[![Hugging Face Model](https://img.shields.io/badge/🤗-Hugging%20Face-FFD21E)](https://huggingface.co/yvonne-xiao/AutoTraj-RM/)
+**Inference Model** [![Hugging Face Model](https://img.shields.io/badge/🤗-Hugging%20Face-FFD21E)](https://huggingface.co/yvonne-xiao/AutoTraj-RM/)
 
 ## 🏷️ SFT Stage
 
