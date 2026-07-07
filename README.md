@@ -2,7 +2,7 @@
 
 🤗 Our dataset is available at the following link:
 
-[![Hugging Face Model](https://img.shields.io/badge/🤗-Hugging%20Face-FFD21E)]([[https://huggingface.co/yvonne-xiao/LightTIR/](https://huggingface.co/datasets/yvonne-xiao/AutoTraj-dataset)](https://huggingface.co/datasets/yvonne-xiao/AutoTraj-dataset))
+[![Hugging Face Model](https://img.shields.io/badge/🤗-Hugging%20Face-FFD21E)](https://huggingface.co/datasets/yvonne-xiao/AutoTraj-dataset)
 
 
 ## 🏷️ SFT Stage
