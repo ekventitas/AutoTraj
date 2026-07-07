@@ -1,14 +1,14 @@
 # Guided by Trajectories: Repairing and Rewarding Tool-Use Trajectories for Tool-Integrated Reasoning
 
-🤗 Our dataset is available at:
+🤗 **Dataset**
 
 [![Hugging Face Model](https://img.shields.io/badge/🤗-Hugging%20Face-FFD21E)](https://huggingface.co/datasets/yvonne-xiao/AutoTraj-dataset)
 
-🤗 Our reward model is available at:
+🤗 **Reward Model**
 
 [![Hugging Face Model](https://img.shields.io/badge/🤗-Hugging%20Face-FFD21E)](https://huggingface.co/yvonne-xiao/AutoTraj-7B)
 
-🤗 Our model is available at:
+🤗 **Inference Model**
 
 [![Hugging Face Model](https://img.shields.io/badge/🤗-Hugging%20Face-FFD21E)](https://huggingface.co/yvonne-xiao/AutoTraj-RM/)
 
